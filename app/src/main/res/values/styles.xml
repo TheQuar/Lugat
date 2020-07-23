@@ -1,0 +1,41 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">42dp</item>
+        <item name="android:layout_marginLeft">42dp</item>
+        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:layout_marginEnd">42dp</item>
+        <item name="android:layout_marginRight">42dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:closeIcon">@drawable/cancle_button</item>
+        <item name="android:queryBackground">@color/colorPrimaryDark</item>
+        <item name="android:queryHint">Izlash</item>
+        <item name="android:searchHintIcon">@drawable/ic_search</item>
+        <item name="android:searchIcon">@drawable/search</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="editTextColor">@color/white</item>
+
+    </style>
+
+
+</resources>
